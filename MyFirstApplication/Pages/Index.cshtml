@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">First Inputs</hl>
+    <p>Here is the first form to be submitted:</p>
+
+    <form method="POST">
+        <!-- Here is a text box -->
+        <label for="firstName">First Name:</label>
+        <input asp-for="firstName" class="item" type="text"
+            id="firstName" name="firstName" placeholder="Jane Doe">
+        <br></br>
+
+        <!-- Here is a menu -->
+        <label for="emailAddress">Email:</label>
+        <input asp-for="emailAddress" class="item" type="text"
+               id="emailAddress" name="emailAddress" placeholder="JaneDoe@AwesomeChamplain.edu">
+        <br></br>
+      
+        <!-- The button to submit -->
+        <button type="submit" class="form-textbox">Submit</button>
+        <br></br>
+    </form>
+        
+    <div class="text-left">
+        Your Selections
+        <br></br>
+        First Name: @Model.firstName
+        <br></br>
+        Email: @Model.emailAddress
+    </div>
+</div>
