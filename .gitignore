@@ -1,5 +1,2 @@
-# Basically pretend that visual studio doesn't exist
 .vs/
-*.sln
-*.csproj
 *.csproj.user
