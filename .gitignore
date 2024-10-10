@@ -1,3 +1,5 @@
 .vs/
 *.csproj.user
 **/wwwroot/lib
+*/obj/Debug/net8.0/MyFirstApplication.AssemblyInfo.cs
+*/obj/Debug/net8.0/MyFirstApplication.AssemblyInfoInputs.cache
