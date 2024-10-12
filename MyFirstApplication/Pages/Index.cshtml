@@ -10,9 +10,10 @@
 
     <form method="POST">
         <!-- Here is a text box -->
-        <label for="firstName">First Name:</label>
-        <input asp-for="firstName" class="item" type="text"
-            id="firstName" name="firstName" placeholder="Jane Doe">
+        <label for="firstNameInput">First Name:</label>
+        <input asp-for="firstNameInput" class="item" type="text"
+            id="firstNameInput" name="firstNameInput" placeholder="Jane Doe">
+        <div><span asp-validation-for="firstNameInput" class="text-danger"></span></div>
         <br></br>
 
         <!-- Here is a menu -->
