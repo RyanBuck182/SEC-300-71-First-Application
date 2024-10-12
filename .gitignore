@@ -2,3 +2,4 @@
 *.csproj.user
 **/wwwroot/lib
 */obj/Debug/
+*/bin/Debug/
